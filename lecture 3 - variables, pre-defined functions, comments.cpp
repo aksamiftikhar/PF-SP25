@@ -11,7 +11,7 @@ int main()
 	whose length and width are given above. */
 	double area = length * width;
 	double perimeter;
-	perimeter = 2 * (length + width);
+	perimeter = 2 * (length + width);;
 
 	cout << length;
 
