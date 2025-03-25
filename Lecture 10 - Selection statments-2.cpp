@@ -7,7 +7,7 @@ int main()
 {
 	int age = 20;
 
-	//    if (age > 18)
+	//    if (age > 18)g
 	//    {
 	//        cout << "Eligible to vote." << endl;
 	//        cout << "No longer a minor." << endl;
