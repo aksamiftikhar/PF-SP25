@@ -41,5 +41,5 @@ int main()
 		sum += score; // sum = sum+score;
 		cout << "Enter score: ";
 		cin >> score;
-	} while (score != SENTINEL)
+	} while (score != SENTINEL);
 }
