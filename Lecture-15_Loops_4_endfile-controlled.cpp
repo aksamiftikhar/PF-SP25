@@ -9,15 +9,13 @@ int main()
 
 	if (!infile)
 	{
-		cerr << "Could not open file!" << endl;
+		cout << "Could not open file!" << endl;
 		return 1;
 	}
 
-	infile >> number;
-	while (!infile.eof())
+	while (infile >> number) // this will return false, if end-of-file
 	{
 		cout << "Read number: " << number << endl;
-		infile >> number;
 	}
 
 	cout << "End of file reached." << endl;

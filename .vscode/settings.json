@@ -2,6 +2,8 @@
     "files.associations": {
         "ostream": "cpp",
         "xiosbase": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "fstream": "cpp",
+        "xlocmes": "cpp"
     }
 }
