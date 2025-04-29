@@ -3,11 +3,11 @@
 #include <cmath>
 using namespace std;
 
-double posRoot() // formal parameter
+double posRoot(int a, int b, int c) // formal parameter
 {
-    int a, b, c;
-    cout << "Enter a, b and c: ";
-    cin >> a >> b >> c;
+    // int a, b, c;
+    // cout << "Enter a, b and c: ";
+    // cin >> a >> b >> c;
 
     cout << "Entered posRoot\n";
 
